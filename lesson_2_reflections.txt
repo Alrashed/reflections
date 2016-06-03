@@ -22,3 +22,8 @@ Q: How do the diagrams help you visualize the branch structure?
 
 A: It gives you an idea of the progress for each branch and where it branched off. This is helpful when we're working on on a repository with multiple branches.
 ---
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: it merges them together into one commit, and groups together both branches' commits that are organized based on commit's date.
+---
