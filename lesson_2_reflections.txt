@@ -12,3 +12,8 @@ Q: How can you use the staging area to make sure you have one commit per logical
 
 A: When we make a change in a file in a directory, we then use "git add" to add it into the staging area. Before committing, we use "git status" to check how many files are we going to commit. This way we insure that we're only only making one commit per logical change.
 ---
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branching is useful when we want to make changes outside the master branch in order to have separate versions of our repository that we can later merge or keep them as is.
+---
