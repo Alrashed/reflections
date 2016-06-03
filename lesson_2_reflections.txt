@@ -17,3 +17,8 @@ Q: What are some situations when branches would be helpful in keeping your histo
 
 A: Branching is useful when we want to make changes outside the master branch in order to have separate versions of our repository that we can later merge or keep them as is.
 ---
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: It gives you an idea of the progress for each branch and where it branched off. This is helpful when we're working on on a repository with multiple branches.
+---
