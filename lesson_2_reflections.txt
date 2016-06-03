@@ -7,3 +7,8 @@ Q: How is the staging area different from the working directory and the reposito
 
 A: The staging area is where we prepare added files that we will eventually commit to the repository. This gives us a space to check which files we're going to add before committing right away.
 ---
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: When we make a change in a file in a directory, we then use "git add" to add it into the staging area. Before committing, we use "git status" to check how many files are we going to commit. This way we insure that we're only only making one commit per logical change.
+---
