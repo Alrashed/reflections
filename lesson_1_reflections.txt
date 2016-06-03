@@ -1,0 +1,32 @@
+It took a while to get sublime to run from home directory, but it was something I should've known already so it was a good thing to start with.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Having an entire history of a file gives a lot of information that is very useful to a programmer, for example: spotting errors and bugs by comparing different versions, learning about how the file evolved over time and seeing its progress clearly.
+---
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Manually committing with Git gives the advantage of full control over each version, with the ability of adding comments to each version. With Google Docs it automatically saves anything which is nice, but that could lead to many versions that don't have meaningful change, and you won't be able to remember the exact changes or why without having comments for each version.
+---
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: The reason is that Git and google docs are used for different purposes. With git it's usually used for coding files and projects where multiple files might be dependent on each other. For Google Docs its usually used for single files like a text or spread sheet document, eliminating the need to check multiple files.
+---
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: To use git log, we first have to set the directory to the cloned repository in computer, and then simply time "git log" in the terminal. It will show commits with their ID, author, date, and the commit message.
+We then type "git diff" followed by the commit ID of the initial commit, followed by the commit ID of the commit that has the new changes.
+---
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: By having multiple commits, we can always check back older versions of our files using "git checkout" in case we had a bug or an error in our current version very quickly without any hassle. This gives us confidence in making changes without worrying about breaking things.
+---
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: Work on company's landing page.
+---
