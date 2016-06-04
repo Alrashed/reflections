@@ -1,0 +1,4 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: We create a remote repository when we want to publish our local git repository to github, which gives us a access to our repository from anywhere that github can be access, or it can be used to share our repository with others and the public.
+---
