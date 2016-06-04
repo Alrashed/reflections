@@ -7,3 +7,8 @@ Q: Why might you want to always pull changes manually rather than having Git aut
 
 A: We pull changes manually rather than having Git automatically synced so we can review our changes locally and privately before sending it to Github where it's publicly accessed. This gives us more control in our projects.
 ---
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: We use clones when we want to copy a repository to our local directory, and we use fork when we want to clone a github repository to our own remote repository. Branches are used when we want to branch off the current line of commits (usually branch from master) to make changes that won't affect the original branch.
+---
