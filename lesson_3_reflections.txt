@@ -2,3 +2,8 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: We create a remote repository when we want to publish our local git repository to github, which gives us a access to our repository from anywhere that github can be access, or it can be used to share our repository with others and the public.
 ---
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: We pull changes manually rather than having Git automatically synced so we can review our changes locally and privately before sending it to Github where it's publicly accessed. This gives us more control in our projects.
+---
