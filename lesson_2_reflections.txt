@@ -27,3 +27,8 @@ Q: What is the result of merging two branches together? Why do we represent it i
 
 A: it merges them together into one commit, and groups together both branches' commits that are organized based on commit's date.
 ---
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Automatic merging is useful when we know that the branches we're merging do no conflict, but when there is a conflict, its always better to manually merge by resolving the conflict first, and then continue the merging.
+---
