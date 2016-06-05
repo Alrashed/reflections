@@ -22,3 +22,8 @@ Q: How would you collaborate without using Git or GitHub? What would be easier, 
 
 A: One way to collaborate without git is sharing files via email or any online storages. Git is much easier to use for collaboration, but it's much harder to learn.
 ---
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: Making changes directly in master reduces commits' complexity and simplifies whats been added, but when we're collaborating with others on a remote repository and we want to push our changes, it's better to create a separate branch with the committed change, and use Github's pull request feature to request a merge of our pushed branch into master branch of remote repo. This way insures that everyone sees merges and be aware of them instead of adding changes without collaborators' knowledge.
+---
